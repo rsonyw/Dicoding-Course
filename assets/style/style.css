@@ -3,32 +3,37 @@
 }
 
 body {
-    font-family: 'Quicksand', sans-serif;
-
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEF7FF;
     margin: 0;
     padding: 0;
 }
 
+.judul {
+    font-family: 'Jaro', serif;
+    font-size: 48px;
+}
+
 h2,
 h3 {
-    color: #00a2c6;
+    color: #000000;
 }
 
 footer {
     padding: 20px;
     color: white;
-    background-color: #00a2c6;
+    background-color: #4D869C;
     text-align: center;
     font-weight: bold;
 }
 
 .profile_card img {
     width: 200px;
-    height: auto; 
+    height: auto;
 }
 
 nav a {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     text-decoration: none;
 
@@ -63,16 +68,24 @@ nav a:hover {
 
 .jumbotron {
     font-size: 20px;
-    padding: 60px;
-    background-color: #7ABA78;
+    padding: 20px;
+    background-color: #CDE8E5;
+    display: flex;
+    align-items: center;
     text-align: center;
-    color: white;
+    color: black;
+}
+
+.icon {
+    margin-right: 250px;
+    width: 200px;
 }
 
 nav ul {
     padding-inline: 4rem;
     display: flex;
-
+    justify-content:flex-end;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -82,7 +95,8 @@ nav li {
 }
 
 nav {
-    background-color: #0A6847;
+    background-color: rgb(122, 178, 178, 0.8);
+
     padding: 5px;
     position: sticky;
     top: 0;
